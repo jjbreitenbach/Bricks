@@ -1,0 +1,67 @@
+= A Simple Bricks Ordering System
+
+== Create an Order
+
+.request
+include::{snippets}/createOrder/http-request.adoc[]
+
+.response
+include::{snippets}/createOrder/http-response.adoc[]
+
+== Query an Order
+
+.request
+include::{snippets}/getOrder/http-request.adoc[]
+
+.response
+include::{snippets}/getOrder/http-response.adoc[]
+
+== Query All Orders
+
+.request
+include::{snippets}/getOrderList/http-request.adoc[]
+
+.response
+include::{snippets}/getOrderList/http-response.adoc[]
+
+== Cancel an Order
+
+.request
+include::{snippets}/cancelOrder/http-request.adoc[]
+
+.response
+include::{snippets}/cancelOrder/http-response.adoc[]
+
+== Fulfill an Order
+
+.request
+include::{snippets}/fulfillOrder/http-request.adoc[]
+
+.response
+include::{snippets}/fulfillOrder/http-response.adoc[]
+
+== Modify an Order
+
+.request
+include::{snippets}/updateOrder/http-request.adoc[]
+
+.response
+include::{snippets}/updateOrder/http-response.adoc[]
+
+=== A cancelled order cannot be modified
+
+.request
+include::{snippets}/updateCancelledOrder/http-request.adoc[]
+
+.response
+include::{snippets}/updateCancelledOrder/http-response.adoc[]
+
+=== A fulfilled order can no longer be modified
+
+.request
+include::{snippets}/updateShippedOrder/http-request.adoc[]
+
+.response
+include::{snippets}/updateShippedOrder/http-response.adoc[]
+
+
